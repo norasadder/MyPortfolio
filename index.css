@@ -6,7 +6,8 @@
 }
 
 *{
-    /* font-family: monospace; */
+    font-family: 'Poppins', sans-serif;
+    color: var(--DarkPurple);
 }
 
 html{
@@ -66,7 +67,6 @@ nav a::after {
 nav a:hover:after { 
     width: 100%;
 }
-
 
 /* @media all (max-width : 1000px){
 
