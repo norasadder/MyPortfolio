@@ -1,17 +1,21 @@
 :root{
-    --backgroundColor: #F8F4FA;
-    --DarkPurple : #856595;
-    --hoverColor : #937BA1;
-    --lightText: #C5B8CD;
+    --backgroundColor: #FAFAFA;
+    --DarkPurple : #825F96;
+    --lightText: #C0AEC9;
+    --midPurple: #997DA9;
 }
 
 *{
     font-family: monospace;
 }
 
+html{
+    font-size: 20px;
+}
+
 body{
     background-color: var(--backgroundColor);
-    color: var(--lightText);
+    color: var(--DarkPurple);
 }
 
 
@@ -37,10 +41,9 @@ nav {
 
 nav a{
 color: var(--lightText);
-font-size: clamp(5px , 16px, 20px) ;
+font-size: 1rem;
 max-width: 15%;
 }
-
 
 
 nav a:link { text-decoration: none; }
@@ -51,4 +54,11 @@ nav a:hover {
 }
 nav a:active { text-decoration: none; }
 
+
+/* @media all (max-width : 70px){
+
+    nav a{
+        font-size: 10px;
+        }
+} */
 
