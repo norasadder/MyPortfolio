@@ -1,20 +1,54 @@
 :root{
     --backgroundColor: #F8F4FA;
     --DarkPurple : #856595;
+    --hoverColor : #937BA1;
+    --lightText: #C5B8CD;
 }
 
-section{
+*{
+    font-family: monospace;
+}
+
+body{
     background-color: var(--backgroundColor);
-    /* position: relative; */
-    /* width: 100%;
-    height: 100%; */
+    color: var(--lightText);
 }
 
-.personalIMG{
-    display: inline-block;
-    /* position: relative; */
-    /* width: 20px;
-    height: 30px; */
-    background-color: var(--DarkPurple);
-    
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: right;
 }
+
+nav {
+    position: absolute;
+    right: 3%;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+nav a{
+color: var(--lightText);
+font-size: clamp(5px , 16px, 20px) ;
+max-width: 15%;
+}
+
+
+
+nav a:link { text-decoration: none; }
+nav a:visited { text-decoration: none; }
+nav a:hover { 
+    text-decoration: none;
+    color: var(--DarkPurple)
+}
+nav a:active { text-decoration: none; }
+
+
