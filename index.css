@@ -1,0 +1,20 @@
+:root{
+    --backgroundColor: #F8F4FA;
+    --DarkPurple : #856595;
+}
+
+section{
+    background-color: var(--backgroundColor);
+    /* position: relative; */
+    /* width: 100%;
+    height: 100%; */
+}
+
+.personalIMG{
+    display: inline-block;
+    /* position: relative; */
+    /* width: 20px;
+    height: 30px; */
+    background-color: var(--DarkPurple);
+    
+}
