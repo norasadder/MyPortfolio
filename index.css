@@ -1,8 +1,9 @@
 :root{
     --backgroundColor: #F8F4FA;
-    --DarkPurple : #825F96;
-    --lightText: #C0AEC9;
+    --DarkPurple : #845889;
+    --lightText: #bfa2c5;
     --midPurple: #997DA9;
+    /* #7c5881 */
 }
 
 *{
@@ -82,12 +83,15 @@ nav a:hover:after {
 
 .Home-text h1 {
  font-size: 2.5rem;
+ line-height: 2rem;
 }
 .Home-text h2 {
 font-size: 1.5rem;
+line-height: 1rem;
 
    }
 .Home-text h3 {
+    line-height: 1.5rem;
     font-size: 1rem;
    }
 
