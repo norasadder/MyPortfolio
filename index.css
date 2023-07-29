@@ -83,6 +83,7 @@ nav a:hover:after {
 .Home-text {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .Home-text h1 {
@@ -111,7 +112,7 @@ line-height: 0.1rem;
 }
 
 
-   .About {
+.About {
     padding: 5vh;
     justify-content: center;
     align-items: center;
@@ -138,18 +139,15 @@ line-height: 0.1rem;
 .skills-education-titles{
  display: flex;
  justify-content: space-around ;
-  justify-items: center;
  align-items: center;
  align-content: center;
  width: 50%;
+ margin: auto;
 }
 
 .Edu-Skills-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-    
+    width: 70%;
+    margin: auto;    
 }
 
 .skills-education-titles p {
@@ -180,8 +178,89 @@ line-height: 0.1rem;
 
 .Education-Map{
     display: grid;
+    width: 80%;
+    /* background-color: aqua; */
+    grid-template-columns: 1fr 5px 1fr;
+    margin: auto;
+    padding-top: 5%;
+    /* grid-auto-rows: auto; */
+
+
 
 }
+
+.timeline-paragraph{
+    background-color: var(--DarkPurple);
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(49, 7, 42, 0.63);
+    margin: 7%;
+    margin-top: 0;
+    padding: 3%;
+}
+
+.timeline-paragraph-left{
+    border-top-right-radius: 0;
+
+}
+
+.timeline-paragraph-right {
+    border-top-left-radius: 0;
+}
+
+.timeline-paragraph h2 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--lightText);
+    text-align: center;
+
+}
+
+.timeline-paragraph h3 {
+    font-size: 1.1rem;
+    line-height: 1rem;
+    color: var(--lightText);
+    text-align: center;
+
+}
+.timeline-paragraph p {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1rem;
+    color: var(--lightText);
+    text-align: center;
+
+}
+
+.timeline-date{
+    padding-right: 15%;
+    padding-left: 15%;
+    font-weight: bold;
+}
+.timeline-date-left{
+    text-align: right;
+}
+
+.timeline-date-right{
+    text-align: left;
+}
+
+.middle-line{
+    background-color: var(--DarkPurple);
+}
+
+.point {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: var(--DarkPurple);
+    border-radius: 50%;
+
+}
+
+
 
 
 
