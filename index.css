@@ -141,7 +141,7 @@ line-height: 0.1rem;
  justify-content: space-around ;
  align-items: center;
  align-content: center;
- width: 50%;
+ width: 60%;
  margin: auto;
 }
 
@@ -173,20 +173,16 @@ line-height: 0.1rem;
 }
 
 .skills-education-titles p:hover::after {
-    width: 100%;
+    width: 80%;
 }
 
 .Education-Map{
     display: grid;
     width: 80%;
-    /* background-color: aqua; */
     grid-template-columns: 1fr 5px 1fr;
     margin: auto;
     padding-top: 5%;
-    /* grid-auto-rows: auto; */
-
-
-
+    display: none;
 }
 
 .timeline-paragraph{
@@ -260,7 +256,57 @@ line-height: 0.1rem;
 
 }
 
+.skills-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+    display: none;
+}
 
+.programming-lang-title{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.programming-lang-description{
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    margin-top: 5% ;
+    margin-bottom: 15% ;
+    justify-items: center;
+    grid-row-gap: 30%;
+    display: none;
+}
+
+.expandIMG {
+    cursor: pointer;
+}
+
+.others-title{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.others-description{
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    margin-top: 5% ;
+    justify-items: center;
+    grid-row-gap: 30%;
+    display: none;
+}
 
 
 

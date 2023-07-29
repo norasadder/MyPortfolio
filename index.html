@@ -7,6 +7,7 @@
 <meta name = "description" content = "My Portfolio">
 <title> Nora's Portfolio </title>
 <link rel ="stylesheet" href= "index.css" type = "text/css">
+<script src="index.js"></script> 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
@@ -73,21 +74,24 @@
         <br>
         <br>
         <div class="Edu-Skills-container"> 
-            <!-- <div class = "skills-education-titles-container"> -->
+
+            <!-- Education and Skills titles section -->
         <div class = "skills-education-titles"> 
            <div>
           
-           <p>  <img src="images/education.png" width="50vw" height="auto"> Education </p>
+           <p onclick="displayEducation()">  <img src="images/education.png" width="15% height="auto"> Education </p>
           </div> 
           <div>
            
-           <p> <img src="images/skill.png" width="50vw" height="auto"> Skills </p>
+           <p onclick="displaySkills()"> <img src="images/skill.png" width="25%" height="auto" > Skills </p>
         </div>
            
         </div>
-    <!-- </div> -->
 
-        <div class="Education-Map">
+
+        <!-- Education Map section -->
+
+       <div class="Education-Map" id = "Education-Map">
             <time datetime="July-2019" class = "timeline-date timeline-date-left"> July - 2019 </time>
             <div class ="middle-line">
             <div class="point">
@@ -133,30 +137,58 @@
         </div>
 
         <div> </div>
-        <!-- <div class ="middle-line"> -->
         <div class="point">
         </div>
-    <!-- </div> -->
         <div >
         </div>
-            
+
+    </div>
 
 
 
 
+    <!-- Skills section -->
 
+    <div class="skills-container" id = "skills-container">
 
+    <div class="programming-lang-title">
+        <p> Programming Languages</p>
+        <p class="expandIMG" onclick="expandPL()">
+        <img src="images/down.png" width="70%" height="auto" id= "PL-IMG">
+        </p>
+    </div>
 
+    <div class="programming-lang-description" id ="programming-lang-description">
+        <img src="images/C++.png" width="40%" height="auto" >
+        <img src="images/python.png" width="40%" height="auto" >
+        <img src="images/html-5.png" width="40%" height="auto" >
+        <img src="images/css-3.png" width="40%" height="auto" >
+        <img src="images/java-script.png" width="40%" height="auto"  >
+        <img src="images/php.png" width="40%" height="auto"  >
+    </div>
 
-        </div>
+    <div class="others-title">
+        <p> Other Skills</p>
+        <p class="expandIMG" onclick="expandOthers()">
+            <img src="images/down.png" width="70%" height="auto" id = "othersIMG">
+            </p>
+    </div>
 
+    <div class="others-description" id = "others-description">
+        <img src="images/github.png" width="40%" height="auto" >
+        <img src="images/illustrator.png" width="40%" height="auto" >
+        <img src="images/xd.png" width="40%" height="auto" >
+    </div>
 
-        </div>
+    </div>
+
+    </div>
 
 
 </section>
 
 </main>
+
 
 
 </body>
