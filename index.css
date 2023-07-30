@@ -380,6 +380,39 @@ line-height: 0.1rem;
 }
 
 
+.honors h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    line-height: 1rem;
+    margin-top: 7%;
+}
+
+.honors-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    height:80vh ;
+}
+
+.honors-container img {
+    width: 10%;
+    height: 100%;
+    border-radius: 2rem;
+    margin: 0.5vw;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.honors-container img:hover {
+    width: 50%;
+}
+
+
+
+
+
+
 
 /* @media all (max-width : 1000px){
 
