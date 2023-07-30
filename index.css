@@ -30,6 +30,7 @@ header{
     height: 7%;
     display: flex;
     justify-content: right;
+    z-index: 1;
 }
 
 nav {
@@ -177,7 +178,7 @@ line-height: 0.1rem;
 }
 
 .Education-Map{
-    display: grid;
+    /* display: grid; */
     width: 80%;
     grid-template-columns: 1fr 5px 1fr;
     margin: auto;
