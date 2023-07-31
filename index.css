@@ -1,77 +1,71 @@
-:root{
-    --backgroundColor: #FAFAFA;
-    --DarkPurple : #825F96;
-    --lightText: #C0AEC9;
-    --midPurple: #997DA9;
-}
+:root {
+    --backgroundColor: #f8f4fa;
+    --header-height: 50px;
+    --purple-dark: #825d86;
+    --purple: #997DA9;
+    --purple-light: #bfa2c5; 
 
-*{
-    font-family: 'Poppins', sans-serif;
-    color: var(--DarkPurple);
-}
-
-html{
-    font-size: 1.5vw;
-}
-
-body{
+  }
+  
+  * {
+    font-family: "Poppins", sans-serif;
+    color: var(--purple-dark);
+    text-decoration: none;
+  }
+  
+  html {
+    font-size: clamp(10px, 4vw, 20px);;
+    margin: 0;
+  }
+  
+  body {
     background-color: var(--backgroundColor);
-    color: var(--DarkPurple);
-}
-
-
-header{
+    color: var(--purple-dark);
+  }
+  
+  header {
+    background-color: var(--backgroundColor);
     position: fixed;
+    top: 0;
     width: 100%;
-    height: 7%;
+    height: var(--header-height);
     display: flex;
     justify-content: right;
-}
-
-nav {
-    position: absolute;
-    right: 3%;
+    z-index: 1;
+  }
+  
+  nav {
     width: 40%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-}
-
-nav a{
-position: relative;
-color: var(--lightText);
-font-size: 1rem;
-text-decoration: none;
-}
-
-
-nav a:hover { 
-    text-decoration: none;
-    color: var(--DarkPurple)
-}
-
-nav a::after { 
-        content: '';
-        width: 0%;
-        height: 3px;
-        background: var(--DarkPurple);
-        position: absolute;
-        bottom: -15%;
-        left: 0;
-        transition: 0.5s;
-}
-
-nav a:hover:after { 
+    padding-right: 1%;
+  }
+  
+  nav a {
+    position: relative;
+    color: var(--purple-light);
+    font-size: 1rem;
+  }
+  
+  nav a:hover {
+    color: var(--purple-dark);
+  }
+  
+  nav a::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: var(--purple-dark);
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    transition: 0.5s;
+  }
+  
+  nav a:hover:after {
     width: 100%;
-}
-
-/* @media all (max-width : 1000px){
-
-    html{
-        font-size: 10px;
-        }
-} */
-
+  }
