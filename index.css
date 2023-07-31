@@ -390,3 +390,34 @@
     height: 25%;
     justify-content: space-around;
   }
+
+  .honors h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    line-height: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+  }
+  
+  .honors-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+  }
+  
+  .honors-container img {
+    width: 12%;
+    height: 60%;
+    border-radius: 2rem;
+    margin: 0.5vw;
+    transition: 1s;
+    cursor: pointer;
+  }
+  
+  .honors-container img:hover {
+    width: 50%;
+    height: 100%;
+  }
