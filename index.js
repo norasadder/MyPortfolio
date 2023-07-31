@@ -1,23 +1,26 @@
+const EDUCATION_MAP_ID = "Education-Map";
+const SKILLS_CONTAINER_ID = "skills-container";
+
 function displayEducation() {
-    if (document.getElementById("Education-Map").style.display == "none") {
-        document.getElementById("Education-Map").style.display = "grid";
-        document.getElementById("skills-container").style.display = "none";
+    if (document.getElementById(EDUCATION_MAP_ID ).style.display == "none") {
+        document.getElementById(EDUCATION_MAP_ID ).style.display = "grid";
+        document.getElementById(SKILLS_CONTAINER_ID).style.display = "none";
     }
     else {
-        document.getElementById("Education-Map").style.display = "none";
-        document.getElementById("skills-container").style.display = "none";
+        document.getElementById(EDUCATION_MAP_ID ).style.display = "none";
+        document.getElementById(SKILLS_CONTAINER_ID).style.display = "none";
     }
     
 }
 
 function displaySkills() {
-    if (document.getElementById("skills-container").style.display == "none") {
-    document.getElementById("Education-Map").style.display = "none";
-    document.getElementById("skills-container").style.display = "block";
+    if (document.getElementById(SKILLS_CONTAINER_ID).style.display == "none") {
+    document.getElementById(EDUCATION_MAP_ID).style.display = "none";
+    document.getElementById(SKILLS_CONTAINER_ID).style.display = "block";
     }
     else {
-        document.getElementById("Education-Map").style.display = "none";
-        document.getElementById("skills-container").style.display = "none";
+        document.getElementById(EDUCATION_MAP_ID ).style.display = "none";
+        document.getElementById(SKILLS_CONTAINER_ID).style.display = "none";
     }
 }
 
