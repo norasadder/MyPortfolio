@@ -69,45 +69,50 @@
   nav a:hover:after {
     width: 100%;
 }
-
 .Home {
     display: flex;
-    padding: 10vh;
-    justify-content: center;
+    width: 80vw;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 15vh;
-}
+    padding:var(--header-height) 10vw 0 10vw;
+    height: calc(100vh - var(--header-height));
+  }
 
-.Home-text {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
+  .Home-Personal-IMG{
+    width: 40%;
+  }
 
-.Home-text h1 {
- font-size: 2.5rem;
- line-height: 0.1rem;
-}
-.Home-text h2 {
-font-size: 1.5rem;
-line-height: 0.1rem;
-
-   }
-.Home-text h3 {
+  .Home-text{
+    width: 50%;
+  }
+  
+  .Home-text h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .Home-text h2 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+  .Home-text h3 {
     line-height: 1.5rem;
     font-size: 1rem;
-   }
-
-
-.resume {
+  }
+  
+  .resume {
     text-align: center;
     border-radius: 10px;
-    background-color: var(--DarkPurple);
+    background-color: var(--purple-dark);
     color: var(--backgroundColor);
     font-weight: bold;
     width: 40%;
-
-}
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  .resume:hover {
+    transform: scale(1.1);
+  }
 
 
 .About {
@@ -375,13 +380,4 @@ line-height: 0.1rem;
     justify-content: space-around;
 
 }
-
-
-
-/* @media all (max-width : 1000px){
-
-    html{
-        font-size: 10px;
-        }
-} */
 
