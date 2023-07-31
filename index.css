@@ -114,270 +114,205 @@
     transform: scale(1.1);
   }
 
-
-.About {
-    padding: 5vh;
-    justify-content: center;
-    align-items: center;
-}
-
-.About-title{
-
-    display: flex;
-    justify-content: center;
+  .About {
+    width: 100vw;
+    padding: 0;
+  }
+  
+  .About-title {
+    text-align: center;
+    width: 80%;
+    margin: auto;
     font-size: 1.75rem;
     line-height: 1rem;
-}
-
-.About-description-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.About-description {
+  }
+  
+  .About-description {
     width: 80%;
-}
-
-.skills-education-titles{
- display: flex;
- justify-content: space-around ;
- align-items: center;
- align-content: center;
- width: 60%;
- margin: auto;
-}
-
-.Edu-Skills-container {
+    margin: auto;
+  }
+  
+  .skills-education-titles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .Edu-Skills-container {
     width: 70%;
-    margin: auto;    
-}
-
-.skills-education-titles p {
+    margin: auto;
+  }
+  
+  .skills-education-titles p {
     position: relative;
-    color: var(--lightText);
+    color: var(--purple-light);
     font-size: 1.5rem;
     cursor: pointer;
-}
-
-.skills-education-titles p:hover { 
-    color: var(--DarkPurple)
-}
-
-.skills-education-titles p::after { 
-        content: '';
-        width: 0%;
-        height: 3px;
-        background: var(--DarkPurple);
-        position: absolute;
-        bottom: -15%;
-        left: 0;
-        transition: 0.5s;
-}
-
-.skills-education-titles p:hover::after {
+  }
+  
+  .skills-education-titles p:hover {
+    color: var(--purple-dark);
+  }
+  
+  .skills-education-titles p::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: var(--purple-dark);
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    transition: 0.5s;
+  }
+  
+  .skills-education-titles p:hover::after {
     width: 80%;
-}
-
-.Education-Map{
+  }
+  
+  .Education-Map {
     /* display: grid; */
     width: 80%;
     grid-template-columns: 1fr 5px 1fr;
     margin: auto;
     padding-top: 5%;
     display: none;
-}
-
-.timeline-paragraph{
-    background-color: var(--DarkPurple);
+  }
+  
+  .timeline-paragraph {
+    background-color: var(--purple-dark);
     border-radius: 20px;
     box-shadow: 0 0 5px rgba(49, 7, 42, 0.63);
     margin: 7%;
     margin-top: 0;
-    padding: 3%;
-}
-
-.timeline-paragraph-left{
+  }
+  
+  .timeline-paragraph-left {
     border-top-right-radius: 0;
-
-}
-
-.timeline-paragraph-right {
+  }
+  
+  .timeline-paragraph-right {
     border-top-left-radius: 0;
-}
-
-.timeline-paragraph h2 {
+  }
+  
+  .timeline-paragraph h2 {
     font-size: 1.2rem;
     line-height: 1.5rem;
     color: var(--backgroundColor);
     text-align: center;
-
-}
-
-.timeline-paragraph h3 {
+  }
+  
+  .timeline-paragraph h3 {
     font-size: 1rem;
     line-height: 1rem;
     color: var(--backgroundColor);
     text-align: center;
-
-}
-.timeline-paragraph p {
+  }
+  .timeline-paragraph p {
     font-size: 1rem;
     /* font-weight: bold; */
     line-height: 1rem;
     color: var(--backgroundColor);
     text-align: center;
-
-}
-
-.timeline-date{
+  }
+  
+  .timeline-date {
     padding-right: 15%;
     padding-left: 15%;
     font-weight: bold;
-}
-.timeline-date-left{
+  }
+  .timeline-date-left {
     text-align: right;
-}
-
-.timeline-date-right{
+  }
+  
+  .timeline-date-right {
     text-align: left;
-}
-
-.middle-line{
-    background-color: var(--DarkPurple);
-}
-
-.point {
+  }
+  
+  .middle-line {
+    background-color: var(--purple-dark);
+  }
+  
+  .point {
     position: relative;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    background: var(--DarkPurple);
+    background: var(--purple-dark);
     border-radius: 50%;
-
-}
-
-.skills-container {
+  }
+  
+  .skills-container {
     width: 80%;
     margin: auto;
     padding-top: 5%;
     display: none;
-}
-
-.programming-lang-title{
+  }
+  
+  .programming-lang-title {
     display: flex;
     width: 90%;
     margin: auto;
     justify-content: space-between;
     font-size: 1.25rem;
     font-weight: bold;
-}
-
-.programming-lang-description{
+  }
+  
+  .programming-lang-description {
     /* display: grid; */
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
     margin: auto;
-    margin-top: 5% ;
-    margin-bottom: 15% ;
+    margin-top: 5%;
+    margin-bottom: 15%;
     justify-items: center;
     grid-row-gap: 30%;
     display: none;
-}
+  }
 
-.expandIMG {
+  .programming-lang-description img {
+    transition: 0.7s;
+  }
+
+  .programming-lang-description img:hover {
+    transform: scale(1.3);
     cursor: pointer;
-}
-
-.others-title{
+  }
+  
+  .expandIMG {
+    cursor: pointer;
+  }
+  
+  .others-title {
     display: flex;
     width: 90%;
     margin: auto;
     justify-content: space-between;
     font-size: 1.25rem;
     font-weight: bold;
-}
-
-.others-description{
+  }
+  
+  .others-description {
     /* display: grid; */
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
     margin: auto;
-    margin-top: 5% ;
+    margin-top: 5%;
     justify-items: center;
     grid-row-gap: 30%;
     display: none;
-}
+  }
 
+  .others-description img {
+    transition: 0.7s;
+  }
 
-.projects h2 {
-    text-align: center;
-    font-size: 1.75rem;
-    line-height: 1rem;
-    margin-top: 5%;
-}
-
-.projects-container {
-    display: grid;
-    width: 65%;
-    margin: auto;
-    grid-template-columns: 1fr 1fr;
-    gap: 8%;
-    margin-top: 5%;
-}
-
-.project-item {
-    position: relative;
-    background-color: #bfa2c5;
-    color: var(--lightText);
-    border-radius: 1.5rem;
-    /* margin: 7%; */
-    overflow: hidden;
-}
-
-.project-item img {
-    width: 100%;
-    height: 100% ;
-}
-
-.project-description {
-    position: absolute;
-    width: 100%;
-    height: 100% ;
-    top : 0;
-    text-align: center;
-    background-color: var(--DarkPurple);
-    opacity: 0.85;
-    color: var(--backgroundColor);
-    padding: 3%;
-    box-sizing: border-box;
-    transform: translateY(100%);
-}
-
-.project-item:hover .project-description {
-    transform: translateY(0%);
-}
-
-.project-description h2 {
-    font-size: 1.25rem;
-    line-height: 0.1rem;
-    font-weight: bold;
-    color: var(--backgroundColor);
-}
-
-.project-description p {
-    color: var(--backgroundColor);
-    font-size: 0.9rem;
-}
-
-.git-demo-container {
-    display: flex;
-    width: 80%;
-    margin: auto;
-    height: 25%;
-    justify-content: space-around;
-
-}
+  .others-description img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+  }
 
