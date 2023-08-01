@@ -317,13 +317,16 @@
     cursor: pointer;
   }
 
+  .projects {
+    padding-top: calc(var(--header-height) + 3vh);
+  }
+
   .projects h2 {
     text-align: center;
     font-size: 1.75rem;
     line-height: 1rem;
     width: 80%;
     margin: auto;
-    margin-top: 3%;
   }
   
   .projects-container {
