@@ -117,6 +117,7 @@
   .About {
     width: 100vw;
     padding: 0;
+    padding-top: calc(var(--header-height) + 3vh);
   }
   
   .About-title {
