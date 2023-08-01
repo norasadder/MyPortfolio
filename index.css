@@ -395,13 +395,16 @@
     justify-content: space-around;
   }
 
+  .honors {
+    padding-top: calc(var(--header-height) + 3vh);
+  }
+
   .honors h2 {
     text-align: center;
     font-size: 1.75rem;
     line-height: 1rem;
     width: 80%;
     margin: auto;
-    margin-top: 3%;
   }
   
   .honors-container {
@@ -414,7 +417,7 @@
   
   .honors-container img {
     width: 12%;
-    height: 60%;
+    height: 80%;
     border-radius: 2rem;
     margin: 0.5vw;
     transition: 1s;
