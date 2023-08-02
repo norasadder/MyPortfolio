@@ -2,6 +2,10 @@ const EDUCATION_MAP_ID = "Education-Map";
 const SKILLS_CONTAINER_ID = "skills-container";
 const EDUCATION_TITLE_ID = "education-title";
 const SKILLS_TITLE_ID = "skills-title";
+const PROGR_LANG_DESC_ID = "programming-lang-description";
+const OTHERS_DESC_ID = "others-description";
+const educationMapDOM = document.getElementById(PROGR_LANG_DESC_ID);
+const skillsContainerDOM = document.getElementById(skillsContainerDOM);
 
 function displayEducation() {
   document.getElementById(EDUCATION_MAP_ID).style.display = "grid";
@@ -26,8 +30,9 @@ function displaySkills() {
 
 function expandPL() {
   if (
-    document.getElementById("programming-lang-description").style.display ==
-    "none"
+    window.getComputedStyle(
+      document.getElementById("programming-lang-description")
+    ).display === "none"
   ) {
     document.getElementById("PL-IMG").src = "images/Up.png";
     document.getElementById("programming-lang-description").style.display =
@@ -40,7 +45,10 @@ function expandPL() {
 }
 
 function expandOthers() {
-  if (document.getElementById("others-description").style.display == "none") {
+  if (
+    window.getComputedStyle(document.getElementById("others-description"))
+      .display === "none"
+  ) {
     document.getElementById("othersIMG").src = "images/Up.png";
     document.getElementById("others-description").style.display = "grid";
   } else {
