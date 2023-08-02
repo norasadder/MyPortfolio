@@ -4,6 +4,7 @@
     --purple-dark: #825d86;
     --purple: #997DA9;
     --purple-light: #bfa2c5; 
+    --title-height: 5vh;
 
   }
   
@@ -68,4 +69,48 @@
   
   nav a:hover:after {
     width: 100%;
+}
+.Home {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    padding:var(--header-height) 10vw 0 10vw;
+    height: calc(100vh - var(--header-height));
+  }
+
+  .Home-Personal-IMG{
+    width: 40%;
+  }
+
+  .Home-text{
+    width: 50%;
+  }
+  
+  .Home-text h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .Home-text h2 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+  .Home-text h3 {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .resume {
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--purple-dark);
+    color: var(--backgroundColor);
+    font-weight: bold;
+    width: 40%;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  .resume:hover {
+    transform: scale(1.1);
   }
