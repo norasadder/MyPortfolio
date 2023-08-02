@@ -51,3 +51,295 @@
           >
         </div>
       </section>
+
+      <br />
+      <br />
+
+      <section class="About" id="About">
+        <h1 class="About-title">About Me</h1>
+        <br />
+        <p class="About-description">
+          5th-year Computer Engineering student at An-Najah University and
+          aspiring Frontend Developer. Currently, I'm gaining valuable
+          experience as a frontend developer through an exciting internship.
+        </p>
+        <br />
+        <br />
+        <div class="Edu-Skills-container">
+          <!-- Education and Skills titles section -->
+          <div class="skills-education-titles">
+            <div>
+              <p onclick="displayEducation()">
+                <img
+                  src="images/education.png"
+                  alt="education icon"
+                  width="15%"
+                  height="auto"
+                />
+                Education
+              </p>
+            </div>
+            <div>
+              <p onclick="displaySkills()">
+                <img
+                  src="images/skill.png"
+                  alt="skills icon"
+                  width="25%"
+                  height="auto"
+                />
+                Skills
+              </p>
+            </div>
+          </div>
+
+          <!-- Education Map section -->
+
+          <div class="Education-Map" id="Education-Map">
+            <time datetime="July-2019" class="timeline-date timeline-date-left">
+              July - 2019
+            </time>
+            <div class="middle-line">
+              <div class="point"></div>
+            </div>
+            <div class="timeline-paragraph timeline-paragraph-right">
+              <h2>High School</h2>
+              <h3>Tala'e Al Amal School</h3>
+              <p>scientific stream , 98.9</p>
+            </div>
+
+            <div class="timeline-paragraph timeline-paragraph-left">
+              <h2>Faculty Of Honor</h2>
+
+              <h3>An-Najah University</h3>
+              <p>
+                It's a faculty for distinguished students to improve their soft
+                skills
+              </p>
+            </div>
+            <div class="middle-line">
+              <div class="point"></div>
+            </div>
+
+            <time
+              datetime="May - 2022"
+              class="timeline-date timeline-date-right"
+            >
+              May - 2022
+            </time>
+
+            <time datetime="Currently" class="timeline-date timeline-date-left">
+              Currently
+            </time>
+            <div class="middle-line">
+              <div class="point"></div>
+            </div>
+            <div class="timeline-paragraph timeline-paragraph-right">
+              <h2>Computer Engineering</h2>
+              <h3>An-Najah University</h3>
+              <p>GPA 3.88</p>
+            </div>
+
+            <div></div>
+            <div class="point"></div>
+            <div></div>
+          </div>
+
+          <!-- Skills section -->
+
+          <div class="skills-container" id="skills-container">
+            <div class="programming-lang-title">
+              <p>Programming Languages</p>
+              <p class="expandIMG" onclick="expandPL()">
+                <img
+                  src="images/down.png"
+                  alt="expand icon"
+                  width="70%"
+                  height="auto"
+                  id="PL-IMG"
+                />
+              </p>
+            </div>
+
+            <div
+              class="programming-lang-description"
+              id="programming-lang-description"
+            >
+              <img
+                src="images/C++.png"
+                alt="c++ icon"
+                width="40%"
+                height="auto"
+              />
+              <img
+                src="images/python.png"
+                alt="python icon"
+                width="40%"
+                height="auto"
+              />
+              <img
+                src="images/html-5.png"
+                alt="html5 icon"
+                width="40%"
+                height="auto"
+              />
+              <img
+                src="images/css-3.png"
+                alt="css3 icon"
+                width="40%"
+                height="auto"
+              />
+              <img
+                src="images/java-script.png"
+                alt="Java-Script icon"
+                width="40%"
+                height="auto"
+              />
+              <img
+                src="images/php.png"
+                alt="php icon"
+                width="40%"
+                height="auto"
+              />
+            </div>
+
+            <div class="others-title">
+              <p>Other Skills</p>
+              <p class="expandIMG" onclick="expandOthers()">
+                <img
+                  src="images/down.png"
+                  alt="shrink icon"
+                  width="70%"
+                  height="auto"
+                  id="othersIMG"
+                />
+              </p>
+            </div>
+
+            <div class="others-description" id="others-description">
+              <img
+                src="images/github.png"
+                alt="github icon"
+                width="40%"
+                height="auto"
+              />
+              <img
+                src="images/illustrator.png"
+                alt="illustrator icon"
+                width="40%"
+                height="auto"
+              />
+              <img
+                src="images/xd.png"
+                alt="Xd icon"
+                width="40%"
+                height="auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects section -->
+
+      <section class="projects" id="Projects">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+          <div class="project-item">
+            <img src="images/sweetSpot.jpg" />
+            <div class="project-description">
+              <h2>The Sweet Spot</h2>
+              <p>
+                A website for retailing cakes
+                <br />
+                Built using css, html, php, java script, and sql
+              </p>
+              <div class="git-demo-container">
+                <a
+                  href="https://github.com/norasadder/sweet_spot"
+                  target="_blank"
+                >
+                  <img src="images/github2.png" />
+                </a>
+                <a
+                  href="https://www.youtube.com/watch?v=VfBO77KK-3g&t=1s"
+                  target="_blank"
+                >
+                  <img src="images/youtube.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="images/myPets.jpg" />
+            <div class="project-description">
+              <h2>MyPets Store</h2>
+              <p>
+                A desktop application for selling pets and their accessories.
+                <br />
+                Built using JavaFX and SQL
+              </p>
+              <div class="git-demo-container">
+                <a
+                  href="https://github.com/norasadder/My_Pets_Store"
+                  target="_blank"
+                >
+                  <img src="images/github2.png" />
+                </a>
+                <a
+                  href="https://www.youtube.com/watch?v=S2tidjGVOHA&t=8s"
+                  target="_blank"
+                >
+                  <img src="images/youtube.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="images/8puzzle.jpg" />
+            <div class="project-description">
+              <h2>8 Puzzle Solver</h2>
+              <p>
+                A desktop application which solves the 8 puzzle game using AI
+                <br />
+                Built using Java
+              </p>
+              <div class="git-demo-container">
+                <a
+                  href="https://www.youtube.com/watch?v=1mmMl_r9GPQ&t=1s"
+                  target="_blank"
+                >
+                  <img src="images/youtube.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="images/messenger.jpg" />
+            <div class="project-description">
+              <h2>Messenger</h2>
+              <p>
+                A desktop application where people can chat with each other and
+                see who is online through TCP/UDP protocols
+                <br />
+                Built using Java
+              </p>
+              <div class="git-demo-container">
+                <a
+                  href="https://www.youtube.com/watch?v=YHoIFIE18E4"
+                  target="_blank"
+                >
+                  <img src="images/youtube.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br />
+      <br />
+      <br />
