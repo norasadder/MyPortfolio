@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Nora Sadder" />
     <meta name="description" content="My Portfolio" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Nora's Portfolio</title>
     <link rel="stylesheet" href="index.css" type="text/css" />
     <script src="index.js"></script>
@@ -52,9 +53,6 @@
         </div>
       </section>
 
-      <br />
-      <br />
-
       <section class="About" id="About">
         <h1 class="About-title">About Me</h1>
         <br />
@@ -68,28 +66,18 @@
         <div class="Edu-Skills-container">
           <!-- Education and Skills titles section -->
           <div class="skills-education-titles">
-            <div>
-              <p onclick="displayEducation()">
-                <img
-                  src="images/education.png"
-                  alt="education icon"
-                  width="15%"
-                  height="auto"
-                />
-                Education
-              </p>
-            </div>
-            <div>
-              <p onclick="displaySkills()">
-                <img
-                  src="images/skill.png"
-                  alt="skills icon"
-                  width="25%"
-                  height="auto"
-                />
-                Skills
-              </p>
-            </div>
+            <p
+              id="education-title"
+              class="education-title"
+              onclick="displayEducation()"
+            >
+              <img src="images/education.png" alt="education icon" />
+              &nbsp; Education
+            </p>
+            <p id="skills-title" class="skills-title" onclick="displaySkills()">
+              <img src="images/skill.png" alt="skills icon" />
+              &nbsp; Skills
+            </p>
           </div>
 
           <!-- Education Map section -->
@@ -149,7 +137,7 @@
           <div class="skills-container" id="skills-container">
             <div class="programming-lang-title">
               <p>Programming Languages</p>
-              <p class="expandIMG" onclick="expandPL()">
+              <div class="expandIMG" onclick="expandPL()">
                 <img
                   src="images/down.png"
                   alt="expand icon"
@@ -157,7 +145,7 @@
                   height="auto"
                   id="PL-IMG"
                 />
-              </p>
+              </div>
             </div>
 
             <div
@@ -204,7 +192,7 @@
 
             <div class="others-title">
               <p>Other Skills</p>
-              <p class="expandIMG" onclick="expandOthers()">
+              <div class="expandIMG" onclick="expandOthers()">
                 <img
                   src="images/down.png"
                   alt="shrink icon"
@@ -212,7 +200,7 @@
                   height="auto"
                   id="othersIMG"
                 />
-              </p>
+              </div>
             </div>
 
             <div class="others-description" id="others-description">
@@ -351,23 +339,36 @@
         <br />
 
         <div class="honors-container">
-          <img
-            src="images/certificates/IEEEXtreme14.png"
-            alt="IEEEXtreme14 Certificate"
-          />
-          <img
-            src="images/certificates/Grokking.png"
-            alt="Grokking Certificate"
-          />
-          <img
-            src="images/certificates/IEEEXtreme15.png"
-            alt="IEEEXtreme15 Certificate"
-          />
-          <img src="images/certificates/pyhton.png" alt="Python Certificate" />
-          <img
-            src="images/certificates/IEEEXtreme16.png"
-            alt="IEEEXtreme16 Certificate"
-          />
+          <div class="honor-item">
+            <img
+              src="images/certificates/IEEEXtreme14.png"
+              alt="IEEEXtreme14 Certificate"
+            />
+          </div>
+          <div class="honor-item">
+            <img
+              src="images/certificates/Grokking.png"
+              alt="Grokking Certificate"
+            />
+          </div>
+          <div class="honor-item">
+            <img
+              src="images/certificates/IEEEXtreme15.png"
+              alt="IEEEXtreme15 Certificate"
+            />
+          </div>
+          <div class="honor-item">
+            <img
+              src="images/certificates/pyhton.png"
+              alt="Python Certificate"
+            />
+          </div>
+          <div class="honor-item">
+            <img
+              src="images/certificates/IEEEXtreme16.png"
+              alt="IEEEXtreme16 Certificate"
+            />
+          </div>
         </div>
       </section>
 
