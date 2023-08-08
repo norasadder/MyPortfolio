@@ -597,8 +597,23 @@ footer img {
     font-size: 1rem;
   }
 
+  .programming-lang-description {
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    justify-items: center;
+    gap: 40% 10%;
+  }
+
+  .programming-lang-description img {
+    width: 40%;
+  }
+
   .others-title {
     font-size: 1rem;
+  }
+
+  .others-description img {
+    width: 40%;
   }
 
   .projects-container {
@@ -651,9 +666,17 @@ footer img {
     font-size: 1rem;
   }
 
+  .programming-lang-description img {
+    width: 45%;
+  }
+
   .others-title {
     width: 100%;
     font-size: 1rem;
+  }
+
+  .others-description img {
+    width: 45%;
   }
 
   .projects-container {
