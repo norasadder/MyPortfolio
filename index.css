@@ -383,7 +383,7 @@ nav a:hover:after {
   overflow: hidden;
   box-shadow: 0 0 5px rgba(49, 7, 42, 0.63);
   transition: 1s;
-  height: auto;
+  /* height: auto; */
   /* width: 30%; */
 }
 
