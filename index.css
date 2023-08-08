@@ -384,8 +384,7 @@ nav a:hover:after {
   overflow: hidden;
   box-shadow: 0 0 5px rgba(49, 7, 42, 0.63);
   transition: 1s;
-  overflow: hidden;
-  height: auto;
+  /* height: auto; */
   /* width: 30%; */
 }
 
@@ -460,6 +459,7 @@ nav a:hover:after {
 .honors-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
   width: 80%;
   margin: auto;
   height: auto;
@@ -471,9 +471,6 @@ nav a:hover:after {
   border-radius: 1.5rem;
   overflow: hidden;
   transition: 0.5s;
-  padding: 1%;
-  box-sizing: border-box;
-  height: auto;
 }
 
 .honors-container img {
