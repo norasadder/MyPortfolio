@@ -65,10 +65,10 @@ Here are some of the certificates I earned in different competitions and courses
 
 ## Contact:
 Feel free to reach out to me through any of these channels:
-_Github:   (https://github.com/norasadder)
-_LinkedIn: (https://www.linkedin.com/in/norasadder/)
-_Gmail:    norasadder12@gmail.com
-_Phone:    +972595383401
+- Github:   (https://github.com/norasadder)
+- LinkedIn: (https://www.linkedin.com/in/norasadder/)
+- Gmail:    norasadder12@gmail.com
+- Phone:    +972595383401
 
 
 ## How to Run
