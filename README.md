@@ -4,7 +4,7 @@ Welcome to my portfolio project! This repository showcases my skills and achieve
 
 ## Project Overview
 
-In this portfolio, you'll find some information about me, a collection of projects that demonstrate my proficiency in various technologies and programming languages. Each project comes with a brief description and a link to the live demo or the source code. Also you'll find some of the certificates I have and finally a section to contact me.
+In this portfolio, you'll find some information about me, a collection of projects that demonstrate my proficiency in various technologies and programming languages. Each project comes with a brief description and a link to the live demo or the source code. Also you'll find some of my certificates and a section to contact me.
 
 ## Technologies Used
 
@@ -23,9 +23,10 @@ In this portfolio, you'll find some information about me, a collection of projec
 
 I'm Nora Sadder, a 5th-year Computer Engineering student with a strong interest in web development. Currently, I am gaining practical experience as a frontend developer through an internship, where I've had the opportunity to work on exciting projects and enhance my skills.
 
-My education journey: graduation from high school with GPA 98.9 in the scientific stream, graduation from the faculty of honor , and majoring currently computer engineering at An-Najah university with GPA 3.88  
+### My education:
+graduated from high school with a GPA of 98.9 in the scientific stream, from the faculty of honor, and majoring in computer engineering at An-Najah University with a GPA of 3.88. 
 
-My Skills: 
+### My Skills: 
 1. Programming languages: 
 HTML, CSS, JavaScript, PHP, C++, Python.
 
