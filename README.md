@@ -53,7 +53,7 @@ Adobe illustrator, Adobe XD, Github.
 4. Messenger:
    - Description: A desktop application where people can chat with each other and see who is online through TCP/UDP protocols
    - Demo Link:   https://www.youtube.com/watch?v=YHoIFIE18E4
-
+     
 ## Honors:
 Here are some of the certificates I earned in different competitions and courses.
 
@@ -71,14 +71,4 @@ Feel free to reach out to me through any of these channels:
 - Gmail:    norasadder12@gmail.com
 - Phone:    +972595383401
 
-
-## How to Run
-
-If you'd like to run any of these projects locally, follow these steps:
-
-1. Clone this repository to your local machine.
-2. Navigate to the project folder.
-
-
 Thank you for visiting my portfolio!
-
