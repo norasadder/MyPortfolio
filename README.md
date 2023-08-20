@@ -37,21 +37,21 @@ Adobe illustrator, Adobe XD, Github.
 
 1. The Sweet Spot
    - Description: A website for retailing cakes
-   - Github link: (https://github.com/norasadder/sweet_spot)
-   - Demo Link:   (https://www.youtube.com/watch?v=VfBO77KK-3g&t=1s)
+   - Github link: https://github.com/norasadder/sweet_spot
+   - Demo Link:   https://www.youtube.com/watch?v=VfBO77KK-3g&t=1s
 
 2. MyPets Store:
    - Description: A desktop application for selling pets and their accessories.
-   - Github link: (https://github.com/norasadder/My_Pets_Store)
-   - Demo Link:   (https://www.youtube.com/watch?v=S2tidjGVOHA&t=8s)
+   - Github link: https://github.com/norasadder/My_Pets_Store
+   - Demo Link:   https://www.youtube.com/watch?v=S2tidjGVOHA&t=8s
 
 3. 8-Puzzle Solver:
    - Description: A desktop application which solves the 8 puzzle game using AI
-   - Demo Link:   (https://www.youtube.com/watch?v=1mmMl_r9GPQ&t=1s)
+   - Demo Link:   https://www.youtube.com/watch?v=1mmMl_r9GPQ&t=1s
 
 4. Messenger:
    - Description: A desktop application where people can chat with each other and see who is online through TCP/UDP protocols
-   - Demo Link:   (https://www.youtube.com/watch?v=YHoIFIE18E4)
+   - Demo Link:   https://www.youtube.com/watch?v=YHoIFIE18E4
 
 ## Honors:
 Here are some of the certificates I earned in different competitions and courses.
@@ -65,8 +65,8 @@ Here are some of the certificates I earned in different competitions and courses
 
 ## Contact:
 Feel free to reach out to me through any of these channels:
-- Github:   (https://github.com/norasadder)
-- LinkedIn: (https://www.linkedin.com/in/norasadder/)
+- Github:   https://github.com/norasadder
+- LinkedIn: https://www.linkedin.com/in/norasadder/
 - Gmail:    norasadder12@gmail.com
 - Phone:    +972595383401
 
