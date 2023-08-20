@@ -16,7 +16,7 @@ In this portfolio, you'll find some information about me, a collection of projec
 
 - [About Me](#about-me)
 - [Projects](#projects)
-- [Skills](#skills)
+- [Honors](#honors)
 - [Contact](#contact)
 
 ## About Me
